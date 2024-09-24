@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="weather-container">
+      <div class="weather-input">
+        <div class="search-element">
+          <form class="search-form">
+            <input type="text" class="user-location" placeholder="search for city">
+          </form>
+          <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+          <select id="converter">
+            <option value ="metric">&#176C</option>
+            <option value ="imperial">&#176F</option>
+        </select>
+        </div>
+      </div>
+      <!-- weather output section -->
+      <div class="weather-output">
+        <div class="weather-info">
+          <div><h2 class="city"></h2></div>
+          <div class="date"></div>
+          <div class="weather-status"></div>
+          <div class="weather-icon"></div>
+          <div class="temperature">
+            <div class="temp-title">Temperature</div>
+            <div class="temp-value"></div>
+          </div>
+        </div>
+      </div>
+      <!-- forecast -->
+      <div class="forecast">
+        <div class="forecast-element">
+          <i class="fa-solid fa-droplet"></i>
+          <div class="humidinity">
+            <p>Humidity</p>
+            <p class="humidity-value"></p>
+          </div>
+        </div>
+        <!-- wind -->
+        <div class="forecast-element">
+          <i class="fa-solid fa-wind"></i>
+          <div class="wind">
+            <p>Wind</p>
+            <p class="wind-value">16</p>
+          </div>
+        </div>
+        <!-- pressure -->
+        <div class="forecast-element">
+          <i class="fa-solid fa-gauge-high"></i>
+          <div class="pressure">
+            <p>pressure</p>
+            <p class="pressure-value">16</p>
+          </div>
+        </div>
+        <!-- sun -->
+        <div class="forecast-element">
+          <div class="sun">
+            <div class="sun-rise">
+              <i class="fa-regular fa-sun"></i>
+              <div>
+                <p>Sunrise</p>
+                <p id="sunrise-value">1230</p>
+              </div>
+            </div>
+            <div class="sun-set">
+              <i class="fa-regular fa-sun"></i>
+              <div>
+                <p>Sunset</p>
+                <p id="sunset-value">2,39</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- landing page section-->
+    <div class="landing-page">
+      <h1>Real Time Weather App</h1>
+      <br>
+      <p>Welcome to real time weather app, your ultimate weather companion! Whether you're planning a weekend getaway, a daily commute, or outdoor activities, our app provides real-time weather updates tailored just for you.Get precise hourly and daily forecasts powered by advanced meteorological data.</p>
+      <br>
+      <p>No matter where you are, stay informed with weather updates from around the globe.Use the search bar to find a location and access detailed weather data, including current temperatures, humidity, wind speed, atmospheric pressure, sun rise and sunset. You can also select your preferred temperature unit, Celsius or Fahrenheit using the dropdown menu.</p>
+      <!-- message -->
+       <br>
+       <br>
+       <h3>Dear User,</h3>
+<p>
+  Thank you for using this simple app! We are committed to providing you with the best experience possible. If you encounter any error(bugs) or have suggestions for improvements, please don't hesitate to reach out to me <a href="https://gatkuoth.vercel.app" target="_blank">click here</a>. Your feedback is invaluable in helping us enhance the app.
+</p>
+    </div>
+  </div>
+  <!-- footer section -->
+<footer>
+  <p>Copyright &copy;Weather App. All Right are Reserved.</p>
+</footer>
+
+  <!-- fontawesome link -->
+<script src="https://kit.fontawesome.com/2d436da07d.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
