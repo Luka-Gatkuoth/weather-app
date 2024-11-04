@@ -10,3 +10,5 @@ Responsive design for mobile and desktop
 Technologies Used
 HTML, CSS, JavaScript
 API: OpenWeatherMap
+
+The project is live here: https://luka-gatkuoth.github.io/weather-app/
